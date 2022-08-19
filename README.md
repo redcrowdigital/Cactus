@@ -4,7 +4,7 @@ Using this Cactus fork
 --------------
 The setup file in this project appears to be broken on Python 3.x, but below is how to continue using the project without it.
 
-Install Cactus from this repo, change to that directory and then install the requirements:
+Install Cactus from this repo, change to that directory and then install the requirements (in a virtual environment):
 
     git clone git@github.com:redcrowdigital/Cactus.git
     cd Cactus
