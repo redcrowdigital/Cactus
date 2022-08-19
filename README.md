@@ -1,5 +1,31 @@
 [![Build Status](https://travis-ci.org/eudicots/Cactus.svg?branch=master)](https://travis-ci.org/eudicots/Cactus)
 
+Using this Cactus fork
+--------------
+The setup file in this project appears to be broken on Python 3.x, but below is how to continue using the project without it.
+
+Install Cactus from this repo, change to that directory and then install the requirements:
+
+    git clone git@github.com:redcrowdigital/Cactus.git
+    cd Cactus
+    pip install -r requirements.txt
+
+Create your new Cactus site like this:
+
+    python run.py create mysite
+
+Change to your new site directory, and run the webserver:
+
+    cd mysite
+    python ../run.py serve
+
+Note that you can also use all the other Cactus commands via this method. A full list is available by running:
+
+    python ../run.py -h
+
+In future we can add a bash script (or similar) to this project to make it a bit more convenient to use, but for now the above method should do the trick.
+
+
 News
 --------------
 
