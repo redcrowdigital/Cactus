@@ -10,6 +10,10 @@ Install Cactus from this repo, change to that directory and then install the req
     cd Cactus
     pip install -r requirements.txt
 
+To use the default SCSS compressor, you'll also need to install yuicompressor from homebrew (on OSX):
+
+    brew install yuicompressor
+
 Create your new Cactus site like this:
 
     python run.py create mysite
