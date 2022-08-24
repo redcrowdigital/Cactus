@@ -48,6 +48,7 @@ class Site(SiteCompatibilityLayer):
     VERB_UNKNOWN = 0
     VERB_SERVE = 1
     VERB_BUILD = 2
+    VERB_DEPLOY = 3
 
     def __init__(self, path, config_paths=None, ui=None,
         PluginManagerClass=None, ExternalManagerClass=None, DeploymentEngineClass=None,
