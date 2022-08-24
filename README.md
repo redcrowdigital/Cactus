@@ -14,18 +14,23 @@ To use the default SCSS compressor, you'll also need to install yuicompressor fr
 
     brew install yuicompressor
 
-Create your new Cactus site like this:
+Create or change to a different directory to store your Cactus sites in. e.g.
 
-    python run.py create mysite
+    mkdir ~/Sites/cactus-sites
+    cd ~/Sites/cactus-sites
+
+Create your new Cactus site like this (using the path to wherever you installed Cactus):
+
+    python ~/Sites/Cactus/run.py create mysite
 
 Change to your new site directory, and run the webserver:
 
     cd mysite
-    python ../run.py serve
+    python ~/Sites/Cactus/run.py serve
 
 Note that you can also use all the other Cactus commands via this method. A full list is available by running:
 
-    python ../run.py -h
+    python ~/Sites/Cactus/run.py -h
 
 In future we can add a bash script (or similar) to this project to make it a bit more convenient to use, but for now the above method should do the trick.
 
